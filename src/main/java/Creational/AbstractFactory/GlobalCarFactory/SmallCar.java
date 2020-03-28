@@ -1,4 +1,4 @@
-package Behavioral.AbstractFactory.GlobalCarFactory;
+package Creational.AbstractFactory.GlobalCarFactory;
 
 public class SmallCar extends Car {
   public SmallCar(Location location) {

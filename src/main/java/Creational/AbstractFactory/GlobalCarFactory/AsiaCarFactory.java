@@ -1,4 +1,4 @@
-package Behavioral.AbstractFactory.GlobalCarFactory;
+package Creational.AbstractFactory.GlobalCarFactory;
 
 import java.security.InvalidParameterException;
 
@@ -22,7 +22,7 @@ public class AsiaCarFactory {
         break;
 
       default:
-        throw new InvalidParameterException(String.format("Car type '%s' is not supported by AsiaCarFactory", model));
+        throw new InvalidParameterException(format("Car type '%s' is not supported by AsiaCarFactory", model));
     }
 
     return car;

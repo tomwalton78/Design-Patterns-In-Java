@@ -1,4 +1,4 @@
-package Behavioral.AbstractFactory.GlobalCarFactory;
+package Creational.AbstractFactory.GlobalCarFactory;
 
 public abstract class Car {
 
