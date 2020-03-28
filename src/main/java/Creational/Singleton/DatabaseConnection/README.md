@@ -1,9 +1,7 @@
-# Exercise: Shapes
+# Exercise: Database Connection
 
-Source: https://refactoring.guru/design-patterns/prototype
+Source: https://refactoring.guru/design-patterns/singleton
 
 ## Description
 
-In this example, the Prototype pattern lets you produce exact copies of geometric objects, without coupling the code to their classes.
-
-All shape classes follow the same interface, which provides a cloning method. A subclass may call the parent’s cloning method before copying its own field values to the resulting object.
+In this example, the database connection class acts as a Singleton. This class doesn’t have a public constructor, so the only way to get its object is to call the getInstance method. This method caches the first created object and returns it in all subsequent calls.
